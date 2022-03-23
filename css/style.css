@@ -85,6 +85,10 @@ button {
   cursor: pointer;
 }
 
+main {
+  margin-bottom: 5.31rem;
+}
+
 .featuredProducts {
   display: flex;
   flex-direction: column;
@@ -93,12 +97,12 @@ button {
   margin-bottom: 5rem;
 }
 
-.featuredProducts h3 {
+section h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 1.87rem;
   text-align: center;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.68rem;
 }
 
 .featuredProducts .container {
@@ -140,4 +144,97 @@ button {
   font-weight: 400;
   font-size: 0.62rem;
   color: #619d00;
+}
+
+.starProducts {
+  display: flex;
+  flex-direction: column;
+}
+
+.starProducts .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gamingChairs {
+  background: url('../img/banner_gaming_chairs.png') no-repeat;
+  background-size: contain;
+  height: 135px;
+  width: 361px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56rem;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.computers {
+  background: url('../img/banner_computers.png') no-repeat;
+  background-size: contain;
+  height: 135px;
+  width: 361px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56rem;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+footer {
+  height: 15.06rem;
+  background: var(--main-bg-color);
+}
+
+.info {
+  height: 216px;
+  display: flex;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 75px;
+}
+
+.socialMediass {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socialMediass h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--secondary-color);
+  margin-bottom: 40px;
+}
+
+.bottom {
+  height: 25px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.socialIconss {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
 }
