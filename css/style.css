@@ -1,14 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  --main-bg-color: #222222;
+  --primary-color: #000000;
+  --secondary-color: #f3f3f3;
+  --decoration-color: #d01418;
 }
 
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  background: #ffffff;
+}
+
+header {
+  height: 6.25rem;
+  background-color: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2.18rem;
+  padding-left: 2.18rem;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  gap: 0.75rem;
+  margin-right: 2.62rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+nav svg {
+  cursor: pointer;
+}
+
+.slider {
+  height: 32rem;
+  background: url('../img/slideimg01.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+
+h2 span {
+  color: var(--decoration-color);
+}
+
+button {
+  width: 13.75rem;
+  height: 3.81rem;
+  background: var(--decoration-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin-top: 1.75rem;
+  cursor: pointer;
 }
