@@ -52,6 +52,10 @@ nav svg {
   cursor: pointer;
 }
 
+.mobileIcon {
+  display: none;
+}
+
 .slider {
   height: 32rem;
   background: url('../img/slideimg01.png') no-repeat center;
@@ -255,15 +259,18 @@ footer {
   }
 
   h2 {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
   .starProducts .container {
-    gap: 40px;
+    gap: 2.5rem;
   }
 
   header .logo {
     padding-left: 0;
+  }
+  .mobileIcon {
+    display: block;
   }
 }
 
