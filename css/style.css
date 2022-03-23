@@ -64,7 +64,7 @@ nav svg {
 
 h2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: var(--secondary-color);
 }
 
@@ -160,8 +160,8 @@ section h3 {
 .gamingChairs {
   background: url('../img/banner_gaming_chairs.png') no-repeat;
   background-size: contain;
-  height: 135px;
-  width: 361px;
+  height: 8.43rem;
+  width: 22.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,8 +176,8 @@ section h3 {
 .computers {
   background: url('../img/banner_computers.png') no-repeat;
   background-size: contain;
-  height: 135px;
-  width: 361px;
+  height: 8.43rem;
+  width: 22.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,7 +195,7 @@ footer {
 }
 
 .info {
-  height: 216px;
+  height: 13.5rem;
   display: flex;
 }
 
@@ -203,7 +203,7 @@ footer {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  padding-left: 75px;
+  padding-left: 4.68rem;
 }
 
 .socialMediass {
@@ -217,24 +217,24 @@ footer {
 .socialMediass h4 {
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.56rem;
   color: var(--secondary-color);
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .bottom {
-  height: 25px;
+  height: 1.56rem;
   background: white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 0.62rem;
 }
 
 .socialIconss {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   cursor: pointer;
 }
