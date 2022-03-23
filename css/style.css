@@ -271,6 +271,7 @@ footer {
   }
   .mobileIcon {
     display: block;
+    cursor: pointer;
   }
 }
 
