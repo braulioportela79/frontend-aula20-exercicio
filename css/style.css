@@ -100,6 +100,7 @@ main {
   justify-content: center;
   padding-top: 2.5rem;
   margin-bottom: 5rem;
+  background: var(--secondary-color);
 }
 
 section h3 {
@@ -123,9 +124,12 @@ section h3 {
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  background: white;
 }
+
 .card img {
   padding: 1.87rem 4.25rem;
+  transform: scale(1.2);
 }
 
 .border {
