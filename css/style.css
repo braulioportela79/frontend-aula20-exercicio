@@ -153,6 +153,8 @@ section h3 {
 .starProducts {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .starProducts .container {
